@@ -2,7 +2,7 @@
   "name": "websiteconcepts-snippets",
   "description": "Snippets by WS-concepts",
   "repository": "https://github.com/WS-Concepts/Atom-Snippets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
