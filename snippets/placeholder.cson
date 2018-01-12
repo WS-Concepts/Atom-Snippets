@@ -1,0 +1,16 @@
+# Placeholder images from https://placeholder.com/
+
+'.text.html, .text.php':
+  'Placeholder image':
+    'prefix': 'img-placeholder'
+    'body': '<img src="https://via.placeholder.com/${1:500}x${1:500}/ccc/777?text=<img>" alt="">'
+
+'.source.gfm':
+  'Placeholder image':
+    'prefix': 'img-placeholder'
+    'body': '![placeholder](https://via.placeholder.com/${1:500}x${1:500}/ccc/777?text=<img>)'
+
+'.source.css, .source.scss, .source.less':
+  'Placeholder image':
+    'prefix': 'img-placeholder'
+    'body': 'background-image: url("https://via.placeholder.com/${1:500}x${1:500}/ccc/777?text=<img>");'

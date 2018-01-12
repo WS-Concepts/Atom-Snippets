@@ -1,0 +1,14 @@
+'.text.php':
+  'Printr':
+    'prefix': 'printr'
+    'body': '<?php echo \'<pre>\';print_r(${1:$this->item});echo \'</pre>\'; ?>'
+
+'.source.scss':
+  '@debug':
+    'prefix': 'log.scss'
+    'body': '@debug $1'
+
+'.source.js':
+  'console.log':
+    'prefix': 'console.log'
+    'body': 'console.log($1);'

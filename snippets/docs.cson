@@ -1,0 +1,12 @@
+'.source.gfm':
+  'Doc Template':
+    'prefix': 'doc'
+    'body': '# ${1:heading}\n\n${2:*intro}\n\n## ${3:topic}\n\n${4:*content}'
+
+'.source.scss, .source.less, .source.js':
+  'Doc Template for functions':
+    'prefix': 'doc'
+    'body': '// @param {${1:option}}\n// @return {${2:value}}'
+  'Doc param for functions':
+    'prefix': 'param'
+    'body': '// @param {${1:option}}'

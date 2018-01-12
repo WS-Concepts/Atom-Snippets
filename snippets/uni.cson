@@ -1,0 +1,21 @@
+'.text.html, .text.php':
+  'None Breaking Space':
+    'prefix': 'nbsp'
+    'body': '&nbsp;'
+  'Zero Width Space':
+    'prefix': 'zws'
+    'body': '&#8203;'
+  'None Breaking Hyphen':
+    'prefix': 'nbhy'
+    'body': '&#8209;'
+
+'.source.css, .source.scss, .source.less, source.js':
+  'None Breaking Space':
+    'prefix': 'nbsp'
+    'body': '\\00A0'
+  'Zero Width Space':
+    'prefix': 'zws'
+    'body': '\\200B'
+  'None Breaking Hyphen':
+    'prefix': 'nbhy'
+    'body': '\\2011'

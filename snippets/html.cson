@@ -1,0 +1,26 @@
+'.text.html, .text.php':
+  # A
+  'Anchor External':
+    'prefix': 'a-ext'
+    'body': '<a href="$1" target="_blank" rel="noopener"></a>'
+  'External link':
+    'prefix': 'ext-link'
+    'body': 'target="_blank" rel="noopener"'
+  # Table
+  'Table build (with emmet)':
+     'prefix': 'tbuild'
+     'body': '<table>\n\t<tbody>\n\t\ttr*${1:3}>td*${2:3}\n\t</tbody>\n</table>'
+  # Img
+  'Figure & Figcaption':
+    'prefix': 'figure-full'
+    'body': '<figure>\n\t<img src="$1" alt="$2">\n\t<figcaption>$3</figcaption>\n</figure>'
+  'Source Picture':
+    'prefix': 'source-picture'
+    'body': '<source media="(min-width: 640px)" type="image/webp"\nsrcset="medium.webp">'
+  'Picture & Source':
+    'prefix': 'picture-full'
+    'body': '<picture>\n\t<source media="(min-width: 1280px)" type="image/webp"\n\tsrcset="${1:large}.webp">\n\t<source media="(min-width: 1280px)"\n\tsrcset="${1:large}.jpg">\n\t<source media="(min-width: 640px)" type="image/webp"\n\tsrcset="${1:medium}.webp">\n\t<source media="(min-width: 640px)"\n\tsrcset="${1:medium}.jpg">\n\t<source type="image/webp"\n\tsrcset="${1:small}.webp">\n\t<source\n\tsrcset="${1:small}.jpg">\n\t<img src="${1:fallback}.jpg" width="" height="" alt="">\n</picture>'
+  # Content
+  'Details & Summary':
+    'prefix': 'details-full'
+    'body': '<details ${1:open}>\n\t<summary>${2:title}</summary>\n\t<p>$3</p>\n</details>'

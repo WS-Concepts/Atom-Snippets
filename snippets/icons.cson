@@ -1,0 +1,15 @@
+# Includes the classes for icons by:
+# - material-icons https://material.io/icons/
+# - fontawesome 4 http://fontawesome.io/icons/
+# And has support for an custom icon
+
+'.text.html, .text.php':
+  'Icon md':
+    'prefix': 'icon-md'
+    'body': '<i class="material-icons">${1:icon-name}</i>'
+  'Icon fa':
+    'prefix': 'icon-fa'
+    'body': '<i class="fa fa-${1:icon-name}" aria-hidden="true"></i>'
+  'Icon custom':
+    'prefix': 'icon-custom'
+    'body': '<i class="icon ${1:icon-name}" aria-hidden="true"></i>'

@@ -1,0 +1,12 @@
+# Badges from https://img.shields.io
+
+'.source.gfm':
+  'Badge':
+    'prefix': 'badge'
+    'body': '![${1:alt}](https://img.shields.io/badge/${2:subject}-${3:status}-${4:color}.svg?style=flat-square)'
+  'Badge with link':
+    'prefix': 'badge-link'
+    'body': '[![${1:alt}](https://img.shields.io/badge/${2:subject}-${3:status}-${4:color}.svg?style=flat-square)](${5:link})'
+  'Badge Website-Concepts':
+    'prefix': 'badge-ws'
+    'body': '[![WS-Concepts](https://img.shields.io/badge/made_by-WS--Concepts-6DBE44.svg?style=flat-square)](http://ws-concepts.com/)'

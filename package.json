@@ -1,0 +1,20 @@
+{
+  "name": "wsconcepts-snippets",
+  "description": "Snippets by WS-concepts",
+  "repository": "https://github.com/WS-Concepts/Atom-Snippets",
+  "version": "2.3.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "keywords": [
+    "atom",
+    "snippets"
+  ],
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/WS-Concepts/Atom-Snippets/issues"
+  },
+  "homepage": "https://github.com/WS-Concepts/Atom-Snippets",
+  "license": "MIT",
+  "main": "./lib/main"
+}
