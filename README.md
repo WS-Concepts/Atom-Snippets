@@ -2,16 +2,16 @@
 
 [![WS-Concepts](https://img.shields.io/badge/made_by-WS--Concepts-6DBE44.svg?style=flat-square)](http://ws-concepts.com/)
 [![Built with Atom](https://img.shields.io/badge/built_with-Atom-40a977.svg?style=flat-square)](https://atom.io/)
-[![apm](https://img.shields.io/apm/l/vim-mode.svg?style=flat-square)](https://atom.io/packages/wsconcepts-snippets)
+[![apm](https://img.shields.io/apm/l/vim-mode.svg?style=flat-square)](https://atom.io/packages/websiteconcepts-snippets)
 
 
 Set of handy code snippets used by the WS-Concepts Team
 
 ## Install
 
-Go to `Atom > Preferences` go to the Install tab and search for wsconcepts-snippets
+Go to `Atom > Preferences` go to the Install tab and search for websiteconcepts-snippets
 
-Or using apm: `$ apm install wsconcepts-snippets`
+Or using apm: `$ apm install websiteconcepts-snippets`
 
 Restart Atom
 
