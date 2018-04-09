@@ -25,14 +25,14 @@
   '@error':
     'prefix': 'error'
     'body': '@error \'$1\';'
-  'map-get':
-    'prefix': 'map'
+  'get map value':
+    'prefix': 'get-map'
     'body': 'map-get(\$${1:map}, ${2:value});'
-  'map-deep-get':
-    'prefix': 'map-deep'
+  'get deep map value':
+    'prefix': 'get-deep-map'
     'body': 'map-get(map-get(\$${1:map}, ${2:valuelv1}), ${3:valuelv2});'
-  'list-get':
-    'prefix': 'list'
+  'get array value':
+    'prefix': 'get-list'
     'body': 'nth(\$${1:map}, ${2:1});'
   'Set bg and txt color':
     'prefix': 'bg-color'
@@ -48,8 +48,8 @@
   'loop':
     'prefix': 'loop'
     'body': '.loop-${1:name}(@counter) when (@counter > 0) {\n\t.loop-${1:name}((@counter - 1));\n\t// Code\n}\n.loop-${1:name}(${2:3});'
-  'list-get':
-    'prefix': 'list'
+  'get array value':
+    'prefix': 'get-list'
     'body': 'extract(\@${1:map}, ${2:1});'
   'Mixin/CSS Guard':
     'prefix': 'if'
