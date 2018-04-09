@@ -5,6 +5,9 @@
   'Set all position options':
     'prefix': 'trbl'
     'body': 'top: ${1:0};\nright: ${1:0};\nbottom: ${1:0};\nleft: ${1:0};'
+  'Set all background settings':
+    'prefix': 'bg-full'
+    'body': 'background: ${1:/* img/gradient */} ${2:transparent} center/cover no-repeat;'
   'Gradient':
     'prefix': 'gradient'
     'body': '${1:linear}-gradient(${2:0deg}, ${3:#fff 0%}, ${4:rgba(0, 0, 0, 0) 50%});'
