@@ -22,7 +22,6 @@ Restart Atom
 Supports: `HTML` `PHP`
 
 - `a-ext` Anchor with external settings
-- `ext-link` Set external settings for a link (_Will be dropped in the future for a-ext_)
 - `tbuild` Build Table with small **emmet** tr > td builder (_requires emmet_)
 - `figure-full` Build Figure and Figcaption
 - `source-picture` Source for a picture image
@@ -35,6 +34,7 @@ Supports: `CSS` `SCSS` `LESS`
 
 - `states` set all default states (active, focus, hover)
 - `trbl` Set all position options (top, right, bottom, left)
+- `bg-full` Set all background style options
 - `gradient` Build gradient
 - `space-css` add html space in css value
 
@@ -42,15 +42,15 @@ Supports: `SCSS` `LESS`
 
 - `each` Each loop list or map
 - `for` Each loop number
-- `list` Get list value
+- `get-list` Get list value
 - `bg-color` set bg-color and text-color with contrast
   (_SCSS: requires contrast function_)
 
 Supports: `SCSS`
 
 - `error` set error message
-- `map` get value from map
-- `map-deep` get value from a deeper map
+- `get-map` get value from map
+- `get-deep-map` get value from a deeper map
 
 Supports: `LESS`
 
