@@ -3,9 +3,6 @@
   'Anchor External':
     'prefix': 'a-ext'
     'body': '<a href="$1" target="_blank" rel="noopener"></a>'
-  'External link':
-    'prefix': 'ext-link'
-    'body': 'target="_blank" rel="noopener"'
   # Table
   'Table build (with emmet)':
      'prefix': 'tbuild'
